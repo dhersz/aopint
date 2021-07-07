@@ -8,7 +8,8 @@
 #' Atualmente inclui as chaves:
 #'
 #' - `GOOGLE1`, `GOOGLE2` e `GOOGLE3`, da API do Google Maps;
-#' - `MAPBOX`, do Mapbox.
+#' - `MAPBOX`, do Mapbox;
+#' - `EARTHDATA_LOGIN` e `EARTHDATA_PASS`, da Earthdata da NASA.
 #'
 #' @examples
 #' if (interactive()) {

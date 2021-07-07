@@ -16,7 +16,8 @@ depois de atualizar pra poder usar as chaves assim.
 Atualmente inclui as chaves:
 \itemize{
 \item \code{GOOGLE1}, \code{GOOGLE2} e \code{GOOGLE3}, da API do Google Maps;
-\item \code{MAPBOX}, do Mapbox.
+\item \code{MAPBOX}, do Mapbox;
+\item \code{EARTHDATA_LOGIN} e \code{EARTHDATA_PASS}, da Earthdata da NASA.
 }
 }
 
