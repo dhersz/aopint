@@ -11,6 +11,9 @@ projeto no meu `Meus Documentos`.
 
 ``` r
 install.packages("aopint", repos = "https://dhersz.r-universe.dev")
+
+# ou
+remotes::install_github("dhersz/aopint")
 ```
 
 ## Funções
@@ -24,4 +27,24 @@ atualizar_renviron()
 # depois de reiniciar o R você pode por exemplo pegar o valor de uma chave da
 # API do Google Maps fácil fácil
 chave <- Sys.getenv("GOOGLE1")
+```
+
+-   `adicionar_chaves()`, `remover_chaves()` - adiciona ou remove chaves
+    em um arquivo pra que elas possam depois ser adicionados ao seu
+    `~/.Renviron`.
+
+``` r
+adicionar_chaves(CHAVE_ESPECIAL = "valor_secreto")
+atualizar_renviron()
+
+# depois de reiniciar o R, você pode pegar o valor dela
+Sys.getenv("CHAVE_ESPECIAL")
+#> [1] "valor_secreto"
+
+remover_chaves("CHAVE_ESPECIAL")
+atualizar_renviron()
+
+# depois de reiniciar o R
+Sys.getenv("CHAVE_ESPECIAL")
+#> [1] ""
 ```
