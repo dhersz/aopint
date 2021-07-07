@@ -23,6 +23,8 @@
 #' @export
 atualizar_renviron <- function() {
 
+  checa_wd_valido()
+
   path <- normalizePath("~/.Renviron")
 
   # checa se existe um .Renviron. se não, cria um
@@ -90,7 +92,11 @@ atualizar_renviron <- function() {
 #'   atualizar_renviron()
 #'
 #' }
+#'
+#' @export
 adicionar_chaves <- function(...) {
+
+  checa_wd_valido()
 
   novas_chaves <- list(...)
   nomes_chaves <- setdiff(names(novas_chaves), "")
@@ -161,7 +167,11 @@ adicionar_chaves <- function(...) {
 #'   atualizar_renviron()
 #'
 #' }
+#'
+#' @export
 remover_chaves <- function(chaves) {
+
+  checa_wd_valido()
 
   if (!is.character(chaves)) stop("'chaves' deve ser um vetor de strings!")
 
