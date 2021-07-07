@@ -1,0 +1,40 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "aopint",
+  "description": "Funções de conveniência para agilizar a vida dos\n    membros do AOP.",
+  "name": "aopint: Funções de Conveniência para o AOP",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.0.2 (2020-06-22)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Herszenhut",
+      "email": "dhersz@gmail.com",
+      "@id": "https://orcid.org/0000-0001-8066-1105"
+    }
+  ],
+  "contributor": {},
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Daniel",
+      "familyName": "Herszenhut",
+      "email": "dhersz@gmail.com",
+      "@id": "https://orcid.org/0000-0001-8066-1105"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [],
+  "codeRepository": "https://github.com/dhersz/aopint",
+  "fileSize": "0KB"
+}
