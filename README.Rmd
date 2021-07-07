@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# aopint
+# aopint 🍺
 
 Pacotinho pra agilizar a vida da galera do AOP. As funções dele só funcionam se você estiver em um projeto um nível abaixo da sua pasta `git_seunome`. Por exemplo, as funções funcionam se eu estiver no projeto `git_daniel/aopcoisas`, e não funcionam se eu estiver em um projeto no meu `Meus Documentos`.
 

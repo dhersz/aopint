@@ -1,5 +1,5 @@
 
-# aopint
+# aopint 🍺
 
 Pacotinho pra agilizar a vida da galera do AOP. As funções dele só
 funcionam se você estiver em um projeto um nível abaixo da sua pasta
